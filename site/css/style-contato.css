@@ -1,0 +1,38 @@
+.nav-item {
+    font-size: 20px;
+}
+
+hr {
+    border: 5px solid;
+}
+
+#img-rodape {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+textarea {
+    resize: none;
+}
+
+footer {
+    display: block;
+}
+
+.row-footer {
+    display: flex;
+}
+
+.footer-menu {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: grey;
+}
+
+.row-endfooter {
+    text-align: center;
+}

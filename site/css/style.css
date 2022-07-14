@@ -1,0 +1,59 @@
+.nav-item {
+    font-size: 20px;
+}
+
+#capa {
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(../img/colagem.png);
+    height: 900px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#texto-capa {
+    color: white;
+    padding-left: 20px;
+}
+
+.botao {
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 15px 30px;
+}
+
+.botao a {
+    text-decoration: none;
+}
+
+#img-rodape {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.row-footer {
+    display: flex;
+}
+
+.footer-menu {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: grey;
+}
+
+.row-endfooter {
+    text-align: center;
+}
+
+@media screen and (max-width:991px) {
+    #capa {
+        height: 500px;
+    }
+}
