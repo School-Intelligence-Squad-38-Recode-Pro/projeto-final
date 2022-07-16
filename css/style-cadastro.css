@@ -1,0 +1,56 @@
+.nav-item {
+    font-size: 20px;
+}
+
+hr {
+    border: 5px solid;
+}
+
+h1 {
+    text-align: center;
+}
+
+#img-rodape {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+footer {
+    display: block;
+}
+
+.row-footer {
+    display: flex;
+}
+
+.footer-menu {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: grey;
+}
+
+.row-endfooter {
+    text-align: center;
+}
+
+@media screen and (min-width:1200px) {
+    #banner-ofertas img {
+        display: none;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    #mulher-oferta img {
+        display: none;
+    }
+}
+
+@media screen and (max-width:991px) {
+    #banner-ofertas img {
+        max-width: 500px;
+    }
+}
