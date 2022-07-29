@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2? family= Lagosta+Dois & display=swap');
+
+
+#navbarNav a{
+    color:#fffaff;
+    font-family: 'Lobster Two', cursiva;
+}
+
+body{
+    background: linear-gradient(#fdb833,#fdc43f,#ffda3d,#ffe94e,#f5bb06)100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h2{
+    color: #fffaff;
+    font-family: 'Lobster Two', cursiva;
+}
+
+#btn-contate{
+background-color:#fdb833;
+font-family: 'Lobster Two', cursiva;
+}
+
+#btn-contate:hover{
+background-color:#fffaff;
+color:#212529;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#logo{
+    width:120px; 
+}
+
+.row-endfooter {
+    text-align: center;
+    color: #fffaff;
+}

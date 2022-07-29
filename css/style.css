@@ -1,30 +1,46 @@
+@import url('https://fonts.googleapis.com/css2? family= Lagosta+Dois & display=swap');
 .nav-item {
-    font-size: 20px;
+    font-size:20px;
 }
-
-#capa {
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(../img/colagem.png);
-    height: 900px;
+#navbarNav a{
+    color:#fffaff;
+    font-family: 'Lobster Two', cursiva;
+}
+body{
+    width:100%;
+    min-height:100vh;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(../img/students-1807505.jpg);
     background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    background-attachment: fixed;
 }
+main{
+    min-height:calc(100vh + (147px + 48px));
 
+}
 #texto-capa {
     color: white;
     padding-left: 20px;
+    font-family: 'Lobster Two', cursiva;
 }
-
+.botoes{
+    display: flex;
+}
+button:hover{
+    color:rgb(7, 139, 168);
+}
 .botao {
-    background-color: rgba(0, 0, 0, .50);
+    background-color: rgba(1,186,239);
     border: none;
-    color: white;
+    color: rgb(251, 251, 255);
     margin-top: 10px;
-    margin-left: 20px;
-    padding: 15px 30px;
+    margin-left: 10px;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
 }
-
+.botao img{
+    margin-right:5px;
+}
 .botao a {
     text-decoration: none;
 }
@@ -41,19 +57,23 @@
 .footer-menu {
     margin-top: 50px;
     margin-left: 20px;
+  
 }
 
 .footer-menu a {
     text-decoration: none;
-    color: grey;
+    color: rgb(250, 244, 244);
 }
 
 .row-endfooter {
     text-align: center;
+    color: rgb(240, 240, 247);
 }
 
 @media screen and (max-width:991px) {
-    #capa {
-        height: 500px;
-    }
+    
+}
+
+#logo{
+    width:120px; 
 }
