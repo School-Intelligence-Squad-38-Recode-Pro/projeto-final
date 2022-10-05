@@ -1,14 +1,42 @@
+@import url('https://fonts.googleapis.com/css2? family= Lagosta+Dois & display=swap');
 .nav-item {
+
     font-size: 20px;
 }
+#navbarNav a{
+    color:#fffaff;
+    font-family: 'Lobster Two', cursiva;
+}
 
-hr {
-    border: 5px solid;
+body{
+    background: linear-gradient(#00a8e8,#01baef,#007ea7,#003459)100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main{
+    min-height:calc(100vh + (147px + 48px));
+
+}
+.bg-prussia{
+    background-color: #003459;
+}
+
+.btn-prussia{
+    background-color: #003459;
+    color: #fffaff;
+}
+.btn-prussia:hover{
+    background-color: #007ea7;
 }
 
 h1 {
     text-align: center;
+    color: #fffaff;
+    font-family: 'Lobster Two', cursiva;
+
 }
+
 
 #img-rodape {
     margin-top: 10px;
@@ -30,9 +58,18 @@ footer {
 
 .footer-menu a {
     text-decoration: none;
-    color: grey;
 }
 
 .row-endfooter {
     text-align: center;
+    color: #fffaff;
+}
+button{
+}
+#logo{
+    width:120px; 
+}
+.spanTamanho{
+    width: 70px;
+    text-align: center !important;
 }
